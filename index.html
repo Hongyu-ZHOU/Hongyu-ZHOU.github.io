@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<title>Hongyu Zhou</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="https://brand.umich.edu/assets/brand/downloads/um-logos/primary_logo_kit/color-logo/u-m_logo-hex.png">
+<link rel="stylesheet" href="assets/css/w3.css" />
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"> -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<style>
+body,h1,h2,h3,h4,h5,h6, p{font-family: "Arial", sans-serif}
+h4{
+  color: DarkCyan;
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.light-bold{
+  font-weight:600;
+}
+
+.cli{
+  display: block;
+  height: 60px; /*和顶部fixed的高度一致*/
+  margin-top: -60px; /*和顶部fixed的高度一致*/
+  visibility: hidden;
+}
+
+</style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top display:block">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <div class="w3-bar-item w3-button">&nbsp;&nbsp; Hongyu Zhou &nbsp;&nbsp; </div>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+      <a href="#awards" class="w3-bar-item w3-button">Awards</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button">Publications</a>
+  <a href="#awards" onclick="w3_close()" class="w3-bar-item w3-button">Awards</a>
+</nav>
+
+<!-- Main Content (Left and Right)-->
+</div class="w3-row">
+  <!-- Left Sidebar (1/4) Photo & News -->
+  <div class="w3-col m4 l3">
+    <div class="w3-container w3-center" style="padding:128px 16px" >
+      <img src="images/HongyuZhou.jpg" class="w3-circle" alt="Wanling"  style="width:60%">
+      <br>
+      <div class="w3-large">
+        Hongyu Zhou
+        <br>
+        Ph.D. Student
+        <br>
+        <a href="https://aero.engin.umich.edu/" target="_blank" itemprop="url" rel="noopener" style="text-decoration: none">Dept. of Aerospace Engineering</a>
+        <br>
+        <a href="https://umich.edu/" target="_blank" itemprop="url" rel="noopener" style="text-decoration: none">University of Michigan</a>
+        <br>
+      </div>
+      <h2>
+        <a href="mailto:zhouhy@umich.edu"><i class="fa fa-envelope"></i></a>
+        &nbsp; &nbsp; 
+        <a href="https://scholar.google.com/citations?user=-NP-VzQAAAAJ&hl=zh-CN" ><i class="fab fa-google"></i></a>
+        &nbsp; &nbsp; 
+        <a href="https://github.com/Hongyu-ZHOU" ><i class="fab fa-github"></i></a>
+        &nbsp; 
+        <!-- <a href="xxx" ><i class="fa fa-linkedin"></i></a>
+        &nbsp;  -->
+        <!-- <a href="xxx" ><i class="fa fa-address-card"></i></a> -->
+      </h2> 
+    </div> 
+
+  </div>
+  <!-- Right (3/4) Sections -->
+  <div class="w3-col m8 l9" style="padding:96px 16px">
+    <!-- Section: About -->
+    <div class="cli" id="about"></div>
+    <div class="w3-container" style="padding:32px 32px"> 
+        <h4>Welcome</h4>
+        <p style="padding:0px 32px">Hi! I'm Hongyu Zhou. I am a Ph.D. student at the Dept. of Aerospace Engineering, University of Michigan, under the supervision of 
+          <a href="https://vasileiostzoumas.com/" target="_blank" itemprop="url" rel="noopener" style="text-decoration: none">Prof. Vasileios Tzoumas</a>.
+          Prior to that, I received the B.Eng. degree in Naval Architecture & Ocean Engineering from the Huazhong University of Science and Technology (HUST), and the M.Sc. degrees in Marine Technology from the Norwegian
+          University of Science and Technology (NTNU). 
+          During my master's study, I undertook research on intelligent transportation systems, advised by
+          <a href="https://www.ntnu.edu/employees/roger.skjetne" target="_blank" itemprop="url" rel="noopener" style="text-decoration: none">Prof. Roger Skjetne</a>. I was a research intern at <a href="https://www.ri.cmu.edu/robotics-groups/intelligent-control-lab/" target="_blank" itemprop="url" rel="noopener" style="text-decoration: none">Intelligent Control Lab</a>, the Robotics Institute, CMU, advised by <a href="http://www.cs.cmu.edu/~cliu6/index.html" target="_blank" itemprop="url" rel="noopener" style="text-decoration: none">Prof. Changliu Liu</a>.
+          <p style="padding:0px 32px">I am currently working remotely with <a href="https://www.linkedin.com/in/zhuo-xu-joe/" target="_blank" itemprop="url" rel="noopener" style="text-decoration: none">Zhuo Xu</a> on socially-aware navigation for mobile robots at <a href="https://msc.berkeley.edu/" target="_blank" itemprop="url" rel="noopener" style="text-decoration: none">Mechanical Systems Control Lab</a>, UC Berkeley. My research interest lies in the interdisciplinary combination of robotics, machine learning, and control theories, with applications to perception and control for autonomous vehicles. </p>
+    </div>
+
+    <!-- Section: Research Interests -->
+    <div class="w3-container" style="padding:8px 32px"> 
+      <h4>Research Interests</h4>
+      <ul>
+        <li>Multi-robot coordination</li>      	
+        <li>Learning for control</strong></li>
+        <li>Robotic perception</li>
+      </ul>
+    </div>
+    <!-- Section: Education -->
+    <div class="w3-container" style="padding:8px 32px"> 
+      <h4>Education</h4>
+      <ul>
+        <li>August 2018 - June 2020, M.Sc. in Marine Technology, Norwegian University of Science and Technology (NTNU). </li>
+        <li>September 2014 - June 2018, B.Eng. in Naval Architecture & Ocean Engineering, Huazhong University of Science and Technology (HUST).</li>
+      </ul>
+    </div>
+    <!-- Section: Publication -->
+    <div class="cli" id="publications"></div>
+    <div class="w3-container" style="padding:32px 32px">
+      <h4>Publications</h4>
+        <ol>
+          <li>
+            <strong><u>H. Zhou</u></strong>, Z. Ren, M. Marley, and R. Skjetne.
+            <b>A guidance and maneuvering control system design with anti-collision using stream functions with vortex flows for autonomous marine vessels.</b>
+            <i>IEEE Transactions on Intelligent Transportation Systems. (under review).</i>
+            <!-- <br> -->
+            <!-- [<a href="https://arxiv.org/abs/2004.00646" target="_blank">arXiv</a>]     -->
+          </li>
+          <li>
+			<strong><u>H. Zhou</u></strong> and C. Liu.
+			<b>Distributed motion coordination using convex feasible set based model predictive control.</b>
+			<i>2021 IEEE International Conference on Robotics and Automation, (to appear).</i>
+			<br>
+			[<a href="https://arxiv.org/abs/2101.07994" target="_blank">arXiv</a>]    
+		  </li>
+          <li>
+            X. Zhou, J. Zhu, <strong><u>H. Zhou</u></strong>, C. Xu, and F. Gao.
+            <b>EGO-Swarm: A Fully Autonomous and Decentralized Quadrotor Swarm System in Cluttered Environments.</b>
+            <i>2021 IEEE International Conference on Robotics and Automation, (to appear).</i>
+            <br>
+            [<a href="https://arxiv.org/abs/2011.04183" target="_blank">arXiv</a>]    
+            [<a href="https://www.youtube.com/watch?v=K5WKg8meb94" target="_blank">Video</a>]
+            [<a href="https://www.sciencemag.org/news/2020/12/watch-swarm-drones-fly-through-heavy-forest-while-staying-formation" target="_blank">Science News</a>]    
+          </li>
+          <li>
+			<strong><u>H. Zhou</u></strong>, H. Liu, Z. Zhang, X. Wang, and D. Feng.
+			<b>Numerical study of the wake behind an inclined prolate spheroid at RE= 10000 using LES.</b>
+			<i>37th International Conference on Ocean, Offshore and Arctic Engineering</i>vol. 51272. American Society of Mechanical Engineers, 2018, p. V07BT06A040.
+		  </li>
+          <!-- li>
+            <strong><u>Wanling Cai</u></strong> and Li Chen. 
+            <b>Predicting User Intents and Satisfaction with Dialogue-based Conversational Recommendations.</b>
+            In: <i>Proceedings of 28th ACM Conference on User Modeling, Adaptation and Personalization (UMAP' 20)</i>, Genoa, Italy, July 14-17, 2020. <span style="color:red">[Best Student Paper Award]</span>
+            <br>
+            [<a href="files/2020/UMAP2020-Paper.pdf" target="_blank">Paper</a>]
+            [<a href="files/2020/UMAP 2020-Slides.pdf" target="_blank">Slides</a>]
+            [<a href="https://www.youtube.com/watch?v=257wyBWabBQ" target="_blank">Video</a>]
+            [<a href="files/2020/UMAP2020_dataset_readme.html" target="_blank">Dataset</a>]
+            <br>
+          </li -->
+        </ul>
+    </div>
+    
+    <div class="cli" id="services"></div>
+    <!-- Section: Honors & Awards -->
+    <div class="cli" id="awards"></div>
+    <div class="w3-container" style="padding:32px 32px">
+      <h4>Honors & Awards</h4>
+      <ul>
+        <li> 2017, National Scholarship, HUST, China</li>
+        <li> 2017, First Prize of 5th National Marine Vehicle Design and Manufacturing Contest, China
+        <li> 2016, Outstanding Undergraduates in Term of Academic Performance (the greatest honor for undergraduates), HUST, China</li>
+        <li> 2016-2017, Merit Student, HUST, China</li>
+        <li> 2015, Excellent Student in Terms of Academic Performance, HUST, China</li>
+      </ul>
+    </div>
+
+
+      <!-- Section: Contact>
+      <div class="w3-container" style="padding:32px 32px" id="contact"> 
+        <h4>Contact</h4>
+        <i class="fas fa-map-marker-alt"></i> Address: DLB625, 6/F, David C. Lam Building, Shaw Campus, Hong Kong Baptist University, Kowloon Tong, Hong Kong, P.R. China
+        <br>
+        <i class="fa fa-envelope"></i> Email: cswlcai@comp.hkbu.edu.hk
+      </div>
+	    <-->
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-128">
+  <a href="#about" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <!-- <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div> -->
+  <br>
+
+  Copyright © Hongyu Zhou. All rights reserved. Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>
+
+</footer> 
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
